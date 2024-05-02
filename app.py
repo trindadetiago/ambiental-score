@@ -64,3 +64,4 @@ if st.session_state.map_data is not None:
 
     # Display the map
     st_folium(m, height=600, use_container_width=True, returned_objects=[])
+    
